@@ -9,10 +9,7 @@ const Stats=({name})=>{
         {perimeter:"678.00",totalArea:"24068.00",infection:"14.25",area:"42",severity:"26"},
     ]
 
-
-
-
-
+    
 return(
 <div class="card w-110 bg-primary-content shadow-xl" style={{width:"500px"}}>
   <div class="card-body">
