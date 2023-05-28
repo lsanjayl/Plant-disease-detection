@@ -7,20 +7,24 @@ const Stats=({name})=>{
         {perimeter:"834.00",totalArea:"27788.00",infection:"20.25",area:"40",severity:"28"},
         {perimeter:"900.00",totalArea:"37068.00",infection:"11.25",area:"44",severity:"29"},
         {perimeter:"678.00",totalArea:"24068.00",infection:"14.25",area:"42",severity:"26"},
+        {perimeter:"787.00",totalArea:"22368.00",infection:"0",area:"0",severity:"0"},
+        {perimeter:"787.00",totalArea:"22368.00",infection:"0",area:"0",severity:"0"},
+        {perimeter:"787.00",totalArea:"22368.00",infection:"0",area:"0",severity:"0"},
+        {perimeter:"787.00",totalArea:"22368.00",infection:"0",area:"0",severity:"0"},
+        {perimeter:"678.00",totalArea:"24068.00",infection:"14.25",area:"42",severity:"26"},
+        {perimeter:"834.00",totalArea:"27788.00",infection:"20.25",area:"40",severity:"28"},
+        {perimeter:"678.00",totalArea:"24068.00",infection:"14.25",area:"42",severity:"26"},
+        {perimeter:"678.00",totalArea:"24068.00",infection:"14.25",area:"42",severity:"26"},
     ]
 
     
 return(
 <div class="card w-110 bg-primary-content shadow-xl" style={{width:"500px"}}>
   <div class="card-body">
-    <h2 class="card-title text-black">Infected leaf!!</h2>
-    
-
-
   <div class="stats stats-vertical  bg-accent text-primary-content shadow">
   
   <div class="stat">
-    <div class="stat-title">Perimeter of leaf</div>
+    <div class="stat-title">Perimeter of jackfruit</div>
     <div class="stat-value">{data[name.slice(-5,-4)].perimeter}</div>
     <div class="stat-desc">Plant's perimeter</div>
   </div>

@@ -32,7 +32,7 @@ function myGreeting() {
     <div>
 <div class="card w-96 bg-primary-content shadow-xl" >
   <div class="card-body">
-  <h2 class="text-black">Upload leaf Image</h2>
+  <h2 class="text-black">Upload leaf/fruit Image</h2>
   <input type="file" class="btn-accent" onChange={handleChange}/>
   </div>
   <figure><img src={file}/></figure>
